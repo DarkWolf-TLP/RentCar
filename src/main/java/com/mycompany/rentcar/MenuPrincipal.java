@@ -11,6 +11,7 @@ package com.mycompany.rentcar;
  ningunniengun
  * eso estaba mal escrito
  wao para
+ * por ejemplo este es un ejemplo
  */
 public class MenuPrincipal {
 
