@@ -34,94 +34,92 @@ public class Login extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        Label_Usuario = new javax.swing.JLabel();
+        Label_Contraseña = new javax.swing.JLabel();
         TextUsuario = new javax.swing.JTextField();
         TextContraseña = new javax.swing.JPasswordField();
         BtnIngresar = new javax.swing.JButton();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
+        Label_Video = new javax.swing.JLabel();
+        Label_Azul = new javax.swing.JLabel();
+        Label_RosadoAbajo = new javax.swing.JLabel();
+        Label_RosaArriba = new javax.swing.JLabel();
+        Label_Logo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("KDA RentCart | Login");
+        setResizable(false);
 
         jPanel1.setPreferredSize(new java.awt.Dimension(800, 500));
 
-        jLabel1.setText("Usuario:");
+        Label_Usuario.setText("Usuario:");
 
-        jLabel2.setText("Contraseña:");
-        jLabel2.setToolTipText("");
+        Label_Contraseña.setText("Contraseña:");
+        Label_Contraseña.setToolTipText("");
 
         BtnIngresar.setText("Ingresar");
         BtnIngresar.addActionListener(this::BtnIngresarActionPerformed);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("D:\\UTESA\\Ingenieria en Ciencias Computacionales\\KDA RentCar\\RentCar\\imagenes\\KDA RentCar (1).gif")); // NOI18N
+        Label_Video.setIcon(new javax.swing.ImageIcon("D:\\UTESA\\Ingenieria en Ciencias Computacionales\\KDA RentCar\\RentCar\\imagenes\\KDA RentCar Video.gif")); // NOI18N
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\UTESA\\Ingenieria en Ciencias Computacionales\\KDA RentCar\\RentCar\\imagenes\\Neon1.png")); // NOI18N
+        Label_Azul.setIcon(new javax.swing.ImageIcon("D:\\UTESA\\Ingenieria en Ciencias Computacionales\\KDA RentCar\\RentCar\\imagenes\\Azul_Arriba.png")); // NOI18N
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("D:\\UTESA\\Ingenieria en Ciencias Computacionales\\KDA RentCar\\RentCar\\imagenes\\Neon0.png")); // NOI18N
+        Label_RosadoAbajo.setIcon(new javax.swing.ImageIcon("D:\\UTESA\\Ingenieria en Ciencias Computacionales\\KDA RentCar\\RentCar\\imagenes\\Rosa_Abajo.png")); // NOI18N
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("D:\\UTESA\\Ingenieria en Ciencias Computacionales\\KDA RentCar\\RentCar\\imagenes\\Neon2.png")); // NOI18N
+        Label_RosaArriba.setIcon(new javax.swing.ImageIcon("D:\\UTESA\\Ingenieria en Ciencias Computacionales\\KDA RentCar\\RentCar\\imagenes\\Slpash Rosa.png")); // NOI18N
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("D:\\UTESA\\Ingenieria en Ciencias Computacionales\\KDA RentCar\\RentCar\\imagenes\\61e962376d9150d9cddb4e62ff194adc2207d9cee09cc-h1lHVT_fw658 (1).png")); // NOI18N
+        Label_Logo.setIcon(new javax.swing.ImageIcon("D:\\UTESA\\Ingenieria en Ciencias Computacionales\\KDA RentCar\\RentCar\\imagenes\\Logo.png")); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(jLabel4)
+                .addComponent(Label_Video)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(Label_RosaArriba, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(85, 85, 85)
-                                .addComponent(BtnIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel7)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addComponent(Label_Logo))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(57, 57, 57)
+                        .addGap(51, 51, 51)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(Label_Usuario, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(TextUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(Label_Contraseña, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(TextContraseña, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addComponent(TextContraseña, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(Label_RosadoAbajo, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(85, 85, 85)
+                        .addComponent(BtnIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Label_Azul)
+                .addContainerGap(19, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(Label_Video, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jLabel7))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(Label_RosaArriba, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label_Logo)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                         .addGap(17, 17, 17)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(Label_Azul)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
+                    .addComponent(Label_Usuario)
                     .addComponent(TextUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(25, 25, 25)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
+                    .addComponent(Label_Contraseña)
                     .addComponent(TextContraseña, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label_RosadoAbajo, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(BtnIngresar)
@@ -174,7 +172,7 @@ public class Login extends javax.swing.JFrame {
                         JOptionPane.showMessageDialog(this, "Bienvenido " + nombre);
 
                         if (nivel == 0) {
-                            new MenuAdmin(nombre).setVisible(true);
+                            new Menu(nombre).setVisible(true);
                             this.dispose();
                         } else {
                             JOptionPane.showMessageDialog(this, "Acceso limitado");
@@ -222,15 +220,15 @@ public class Login extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BtnIngresar;
+    private javax.swing.JLabel Label_Azul;
+    private javax.swing.JLabel Label_Contraseña;
+    private javax.swing.JLabel Label_Logo;
+    private javax.swing.JLabel Label_RosaArriba;
+    private javax.swing.JLabel Label_RosadoAbajo;
+    private javax.swing.JLabel Label_Usuario;
+    private javax.swing.JLabel Label_Video;
     private javax.swing.JPasswordField TextContraseña;
     private javax.swing.JTextField TextUsuario;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
