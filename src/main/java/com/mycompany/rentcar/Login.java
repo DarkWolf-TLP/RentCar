@@ -173,7 +173,7 @@ public class Login extends javax.swing.JFrame {
 
                         if (user.equals(usuario) && pass.equals(contrasena)) {
                             encontrado = true;
-                            JOptionPane.showMessageDialog(this, "Bienvenido " + nombre);
+                             
 
                             // REQUISITO iv: Llamamos al menú pasando el nombre Y el nivel
                             // Ya no bloqueamos aquí con un mensaje, dejamos que el Menú se abra
